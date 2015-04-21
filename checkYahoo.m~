@@ -66,5 +66,4 @@ for(i=1:length(SelectedTickerName))
     
 end
 
-fprintf('\n\n Gao Ding!\n\nmemeda');
-disp(p);
+fprintf('\n\n Gao Ding!')

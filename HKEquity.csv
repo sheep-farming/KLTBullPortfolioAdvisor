@@ -53,7 +53,6 @@
 124.HK,GUANGDONG LAND H,Beverages
 1115.HK,TIBET 5100 WATER,Beverages
 345.HK,VITASOY INTL HLD,Beverages
-1073.HK,CHINA AGROTECH,Chemicals
 385.HK,CHINNEY ALLIANCE,Chemicals
 1329.HK,JUDA INTERNATION,Chemicals
 640.HK,INFINITY CHEMICA,Chemicals
@@ -68,7 +67,6 @@
 408.HK,YIP'S CHEMICAL,Chemicals
 517.HK,COSCO INTERNATIO,Chemicals
 189.HK,DONGYUE GROUP,Chemicals
-67.HK,LUMENA NEWMAT,Chemicals
 2299.HK,BILLION IND HLDG,Chemicals
 1888.HK,KB LAMINATES,Chemicals
 546.HK,FUFENG GROUP LTD,Chemicals
@@ -152,7 +150,6 @@
 987.HK,CHINA RENEWABLE,Electronic & Electrical Equipment
 2788.HK,YORKEY OPTICAL,Electronic & Electrical Equipment
 1037.HK,DAIWA ASSOC HLDG,Electronic & Electrical Equipment
-2078.HK,PANASIALUM HOLDI,Electronic & Electrical Equipment
 1184.HK,SAS DRAGON HLDG,Electronic & Electrical Equipment
 259.HK,YEEBO INTL HLDG,Electronic & Electrical Equipment
 842.HK,LEOCH INTERNATIO,Electronic & Electrical Equipment
@@ -184,7 +181,6 @@
 2324.HK,CAPITAL VC LTD,Financial Services
 8215.HK,FIRST CREDIT FIN,Financial Services
 8072.HK,ROMA GROUP LTD,Financial Services
-170.HK,CHINA ASSETS,Financial Services
 1273.HK,HONG KONG FINANC,Financial Services
 8193.HK,GRCHINA PROF SER,Financial Services
 8098.HK,CL GROUP HOLDING,Financial Services
@@ -266,7 +262,6 @@
 411.HK,LAM SOON HONG KG,Food Producers
 374.HK,FOUR SEAS MERCAN,Food Producers
 1174.HK,PAC ANDES INTL,Food Producers
-1007.HK,DAQING DAIRY HOL,Food Producers
 3332.HK,NANJING SINOLI-H,Food Producers
 1717.HK,AUSNUTRIA,Food Producers
 2010.HK,REAL NUTRICEUTIC,Food Producers
@@ -288,7 +283,6 @@
 731.HK,SAMSON PAPER HLD,Forestry & Paper
 2320.HK,HOP FUNG HLDGS,Forestry & Paper
 2268.HK,YOUYUAN,Forestry & Paper
-3868.HK,QX PAPER,Forestry & Paper
 1768.HK,BRACELL,Forestry & Paper
 2314.HK,LEE & MAN PAPER,Forestry & Paper
 2689.HK,NINE DRAGONS PAP,Forestry & Paper
@@ -410,7 +404,6 @@
 1190.HK,BOLINA HOLDING,Household Goods & Home Construction
 531.HK,SAMSON HLDG LTD,Household Goods & Home Construction
 925.HK,BEIJING PROPERTI,Household Goods & Home Construction
-2222.HK,NVC LIGHTING,Household Goods & Home Construction
 3331.HK,VINDA INTL HLDGS,Household Goods & Home Construction
 1999.HK,MAN WAH HOLDINGS,Household Goods & Home Construction
 921.HK,HISENSE KELON -H,Household Goods & Home Construction
@@ -462,7 +455,6 @@
 1090.HK,DA MING INTERNAT,Industrial Metals & Mining
 3833.HK,XINXIN MINING-H,Industrial Metals & Mining
 3788.HK,CHINA HANKING,Industrial Metals & Mining
-581.HK,CHINA ORIENTAL,Industrial Metals & Mining
 1370.HK,HENGSHI MINING,Industrial Metals & Mining
 1636.HK,CMRU,Industrial Metals & Mining
 1208.HK,MMG,Industrial Metals & Mining
@@ -537,7 +529,6 @@
 2628.HK,CHINA LIFE-H,Life Insurance
 426.HK,ONE MEDIA GROUP,Media
 8243.HK,DAHE MEDIA CO-H,Media
-764.HK,ETERNITY INVESTM,Media
 730.HK,SHOUGANG GRAND,Media
 550.HK,CINMEDIA,Media
 8271.HK,GLOBAL DIGITAL C,Media
@@ -557,9 +548,7 @@
 752.HK,PICO FAR EAST,Media
 623.HK,SINOMEDIA HLDG,Media
 685.HK,MEDIA CHINESE,Media
-583.HK,SCMP GROUP LTD,Media
 100.HK,CLEAR MEDIA,Media
-419.HK,CHINA JIUHAO HEA,Media
 2280.HK,HC INTERNATIONAL,Media
 1661.HK,WISDOM HOLDINGS,Media
 2008.HK,PHOENIX SATELLIT,Media
@@ -573,7 +562,6 @@
 1277.HK,KINETIC MINES AN,Mining
 1051.HK,G-RESOURCES GROU,Mining
 1258.HK,CHINA NONFERROUS,Mining
-246.HK,REAL GOLD MINING,Mining
 1818.HK,ZHAOJIN MINING-H,Mining
 1171.HK,YANZHOU COAL-H,Mining
 3993.HK,CMOC-H,Mining
@@ -605,7 +593,6 @@
 681.HK,CHI PEOPLE HOLD,"Oil Equipment, Services & Distribution"
 206.HK,TSC GROUP HOLDIN,"Oil Equipment, Services & Distribution"
 839.HK,ANHUI TIANDA - H,"Oil Equipment, Services & Distribution"
-1192.HK,TITAN PETROCHEMI,"Oil Equipment, Services & Distribution"
 1265.HK,TIANJIN JINRAN-H,"Oil Equipment, Services & Distribution"
 196.HK,HONGHUA GROUP,"Oil Equipment, Services & Distribution"
 1623.HK,HILONG HOLDING,"Oil Equipment, Services & Distribution"
@@ -673,7 +660,6 @@
 1146.HK,CHINA OUTFITTERS,Personal Goods
 746.HK,L & M CHEMICAL,Personal Goods
 533.HK,GOLDLION HLDG,Personal Goods
-1698.HK,BOSHIWA INTERNAT,Personal Goods
 210.HK,DAPHNE INTERNATI,Personal Goods
 1361.HK,361 DEGREES,Personal Goods
 1028.HK,C.BANNER,Personal Goods
@@ -750,7 +736,6 @@
 225.HK,POKFULAM DEV CO,Real Estate Investment & Services
 1232.HK,GW TIANDI HLDS,Real Estate Investment & Services
 859.HK,HENRY GROUP HOLD,Real Estate Investment & Services
-1908.HK,SOUTH WEST ECO D,Real Estate Investment & Services
 214.HK,ASIA ORIENT,Real Estate Investment & Services
 898.HK,MULTIFIELD INTL,Real Estate Investment & Services
 224.HK,PIONEER GLOBAL,Real Estate Investment & Services
@@ -872,7 +857,6 @@
 2778.HK,CHAMPION REIT,Real Estate Investment Trusts
 823.HK,LINK REIT,Real Estate Investment Trusts
 8131.HK,ABC MULTIACTIVE,Software & Computer Services
-8380.HK,GET HOLDINGS,Software & Computer Services
 8033.HK,VODATEL NETWORKS,Software & Computer Services
 465.HK,FUTONG TECHNOLOG,Software & Computer Services
 771.HK,AUTOMATED SYS,Software & Computer Services
@@ -894,7 +878,6 @@
 700.HK,TENCENT,Software & Computer Services
 8265.HK,POWERWELL PACIFI,Support Services
 599.HK,E BON HLDGS LTD,Support Services
-2123.HK,GOLDEN SHIELD,Support Services
 8235.HK,CCID CONSULTIN-H,Support Services
 8031.HK,ETS GROUP LTD,Support Services
 2340.HK,SYNERGIS HOLDING,Support Services
@@ -918,14 +901,11 @@
 1381.HK,CANVEST ENV,Support Services
 1205.HK,CITIC RESOURCES,Support Services
 967.HK,SOUND GLOBAL LTD,Support Services
-773.HK,CHINA METAL,Support Services
 1363.HK,CT ENVIRONMENTAL,Support Services
 257.HK,CHINA EVERBR INT,Support Services
-948.HK,Z-OBEE HOLDINGS,Technology Hardware & Equipment
 8159.HK,GLORY MARK LTD,Technology Hardware & Equipment
 1079.HK,PINE TECHNOLOGY,Technology Hardware & Equipment
 1143.HK,TELEFIELD INTERN,Technology Hardware & Equipment
-865.HK,FIRST MOBILE GRP,Technology Hardware & Equipment
 8036.HK,GOLDENMARS TECHN,Technology Hardware & Equipment
 1010.HK,PACMOS TECH HLDG,Technology Hardware & Equipment
 1263.HK,PC PARTNER GROUP,Technology Hardware & Equipment
@@ -943,7 +923,6 @@
 877.HK,O-NET COMMUNICAT,Technology Hardware & Equipment
 947.HK,MOBI DEVELOPMENT,Technology Hardware & Equipment
 596.HK,INSPUR INTERNATI,Technology Hardware & Equipment
-3335.HK,DBA TELECOM ASIA,Technology Hardware & Equipment
 6168.HK,CHINA U-TON HOLD,Technology Hardware & Equipment
 1639.HK,AKM INDUSTRIAL C,Technology Hardware & Equipment
 1613.HK,SYNERTONE COMMUN,Technology Hardware & Equipment
