@@ -2,9 +2,9 @@ clear
 
 
 ticker=struct('number',0,'name','','sector','');
-[tno,tnm,tsc]  = ImportTickerFromCSV('HKEquity.csv',1, 1033);
+[tno,tnm,tsc]  = ImportTickerFromCSV('HKEquity.csv');
 
-for(i=1:1033)
+for(i=1:length(tno))
     ticker(i).number=tno(i);ticker(i).name=tnm(i);ticker(i).sector=tsc(i);
 end
 clc;
@@ -18,7 +18,7 @@ clc;
 
 SelectedTickerNo=[];
 
-for(i=1:1033)
+for(i=1:length(tno))
             SelectedTickerNo(length(SelectedTickerNo)+1)=ticker(i).number;
             tickername(length(SelectedTickerNo))=ticker(i).name;
     
