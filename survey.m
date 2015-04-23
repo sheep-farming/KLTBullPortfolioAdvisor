@@ -1,6 +1,9 @@
-function [ rate ] = survey()
-%SURVEY Summary of this function goes here
-%   Detailed explanation goes here
+function [ rate, highCapPreference ] = survey()
+%SURVEY: Risk Aversion and Market Preference Survey
+%   This function outputs user's risk rating and whether the user have
+%   preference on asset liquidity.
+%   rate: 1 to 10
+%   
 %Survey Intro
   fprintf('== Risk Survey ============================================\n\n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA          AA         AAAA        AA         AA    AAAA \n AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA     AA   AA           AA        AA         AA      AA \n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA\n\n* P o r t f o l i o   A d v i s o r *\n\n Please take few minutes to answer the follow questions to \nhelp us optimize your portfolio.\n\n\nPress any key to continue...');
   pause;
@@ -121,6 +124,29 @@ clc;
 
   rate=(0.0+r1+r2+r3+r4+r5+r6)/6;
   clc
+  
+  
+% Market Cap Preference
+
+     MCP=input('== Market Capitalization Preference =======================\n\n Generally, stocks with high market capitalization have low\n  liquidity risk and low potential return, and vice versa.\n  In order to achieve your investment objectives, which of \n  the following statement best describes your style?\n\n    A.I prefer high potential return and high liquidity\n     risks. \n    B.I prefer low liquidity risk and low potential return. \n    C.I don''t have preference on stock''s market cap.\n\n( A - C )$ \n','s');
+  
+
+  switch MCP
+      case {'a','A'}
+          highCapPreference=1;
+      case {'b','B'}
+          highCapPreference=-1;
+      case {'c','C'}
+          highCapPreference=0;
+      otherwise
+          highCapPreference=0;
+  end
+  
+  clc;
+  
+%highCapPreference
+
+  
   
 %Survey Result
   fprintf('== Risk Survey Result =====================================\n\n       YYY   YYY   OOOOOOO   UUU   UUU  RRRRRRR    \n        YYY YYY   OOO   OOO  UUU   UUU  RRR   RRR\n         YYYYY    OOO   OOO  UUU   UUU  RRR   RRR\n          YYY     OOO   OOO  UUU   UUU  RRRRRRRR\n          YYY     OOO   OOO  UUU   UUU  RRR   RRR\n          YYY      OOOOOOO    UUUUUUU   RRR    RRR\n\nRRRRRR    EEEEEEEEE   SSSSSS    UUU   UUU  LLL    TTTTTTTTT\nRR    RR  EEE        SS    SSS  UUU   UUU  LLL       TTT\nRR    RR  EEEEEEEEE   SSSS      UUU   UUU  LLL       TTT\nRRRRRRR   EEE            SSSS   UUU   UUU  LLL       TTT\nRR    RR  EEE        SSS    SS  UUU   UUU  LLL       TTT\nRR     RR EEEEEEEEE    SSSSSS    UUUUUUU   LLLLLLLLL TTT\n\nYour risk tolerance rating is:%.1f\n\n\nPress any key to continue...',rate);
