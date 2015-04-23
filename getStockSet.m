@@ -28,9 +28,11 @@
 function [result,tickername]=getStockSet()
 
 ticker=struct('number',0,'name','','sector','');
-[tno,tnm,tsc]  = ImportTickerFromCSV('HKEquity.csv',1, 1033);
+[tno,tnm,tsc]  = ImportTickerFromCSV('HKEquity.csv');
 
-for(i=1:1033)
+stockAmount=length(tno);
+
+for(i=1:stockAmount)
     ticker(i).number=tno(i);ticker(i).name=tnm(i);ticker(i).sector=tsc(i);
 end
 clc;
@@ -39,7 +41,7 @@ clc;
 secCount=1;
 secName(1)=ticker(1).sector;
 secNum(1)=0;
-for(i=1:1033)
+for(i=1:stockAmount)
     
     if(strcmp(ticker(i).sector,secName(secCount))~=1)
         secCount=secCount+1;
@@ -57,7 +59,7 @@ sector=table(Number,SectorName,StockCount);
 
 
 fin=0;
-SelectedSectorNumber=[];
+SelectedSectorNumber=[];clc
 
 % Select Sector Number
 while (fin==0)
@@ -67,7 +69,7 @@ i=input('Enter the sector number(1-41) to select it, or press enter if finished.
 clc;
 if(str2double(i)>=0)
     if(str2double(i)<=41)
-        SelectedSectorNumber(length(SelectedSectorNumber)+1)=str2num(i);
+        SelectedSectorNumber=[ SelectedSectorNumber str2num(i)];
     else
         fin=1;
     end
@@ -90,7 +92,7 @@ tickername={''};
 
 
 
-for(i=1:1033)
+for(i=1:stockAmount)
     for(j=1:length(SelectedSectorNumber))
         if (strcmp(ticker(i).sector,SectorName(SelectedSectorNumber(j))))
             SelectedTickerNo(length(SelectedTickerNo)+1)=ticker(i).number;
@@ -112,6 +114,6 @@ for(i=1:length(SelectedTickerNo))
     
 end
     result=SelectedTickerName;
-    
+
 end
 

@@ -12,6 +12,7 @@ for(i=1:length(ticker))
     Stock(i).name=ticker(i);
     Stock(i).number=(ticker(i));
     Stock(i).price=flipud(data);%Now->Old => Old to Now.
+    try
     Stock(i).returns=price2ret(Stock(i).price(:,2),Stock(i).price(:,1))*30.25; %Daily Return Rate. convert to annual ~ returns*365
             %Progress Bar
             fetchProgress=(60*i/(1.0*length(ticker)));
@@ -24,7 +25,8 @@ for(i=1:length(ticker))
                     fprintf('-');
                 end
             end
-   
+    catch
+    end
     if(length(Stock(i).price)>tickinperiod)
         tickinperiod=length(Stock(i).price);
     end
