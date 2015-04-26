@@ -1,0 +1,427 @@
+== Welcome ================================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ + Introduction
+
+   Our group project is an application based on financial  
+   models that helps you determine the most profitable and 
+   least risk stock portfolio.
+
+
+
+
+
+Press any key to continue...
+
+
+
+
+== About Us ===============================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ + Our Members
+
+   Name               SID
+   ---------------------------
+   SHI Beiying
+   XU Yaohai
+   ZOU Luoyi          54017313
+   JIN Luteng
+   SHI Zhongjie
+
+Press any key to continue...
+
+
+
+
+== About Us ===============================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ + Our Members
+
+   Name               SID
+   ---------------------------
+   SHI Beiying
+   XU Yaohai
+   ZOU Luoyi          54017313
+   JIN Luteng
+   SHI Zhongjie
+
+Press any key to continue...
+
+
+
+
+== About Us ===============================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ + Our Members
+
+   Name               SID
+   ---------------------------
+   SHI Beiying
+   XU Yaohai
+   ZOU Luoyi          54017313
+   JIN Luteng
+   SHI Zhongjie
+
+Press any key to continue...
+
+
+
+
+== Gender =================================================
+
+* P o r t f o l i o   A d v i s o r *
+
+ - How can I call you?
+
+    1. Mr.
+    8. Ms.
+    9. Miss.
+    0. Mrs.
+
+Kindly enter 1, 8, 9 or 0.
+
+# 1
+
+
+
+
+== Gender =================================================
+
+* P o r t f o l i o   A d v i s o r *
+
+ - How can I call you?
+
+    1. Mr.
+    8. Ms.
+    9. Miss.
+    0. Mrs.
+
+Kindly enter 1, 8, 9 or 0.
+
+# 1
+
+
+
+
+== Gender =================================================
+
+* P o r t f o l i o   A d v i s o r *
+
+ - How can I call you?
+
+    1. Mr.
+    8. Ms.
+    9. Miss.
+    0. Mrs.
+
+Kindly enter 1, 8, 9 or 0.
+
+# 1
+
+
+
+
+== Risk Survey #1 =========================================
+
+ 1.How many years of experience do you have in investment?
+
+    A. No Experience
+    B. < 3 years
+    C. 3 - 6 years
+    D. 7 - 10 years
+    E. >10 years
+
+
+( A - E )$ A
+
+
+
+
+== Risk Survey #2 =========================================
+
+ 2.How many types of investment products below are you 
+ holding currently?
+
+    - Cash, deposits, certificate of deposits, capital 
+     protected products
+    - Bonds, bond funds
+    - Foreign currencies, non capital protected currency 
+     linked structured products
+    - Stocks, open­end funds excluding bond funds & money 
+     market funds, non capital protected equity linked 
+     structured products, investment­linked insurance plan,
+     commodities
+    - Options, futures, warrants
+
+
+( 0 - 5 )# 0
+
+
+
+
+== Risk Survey #3 =========================================
+
+ 3.In order to achieve your expected returns, which state- 
+  ment best describes the degree of losses you are willing 
+  to take?
+
+    A.I am willing to accept minimal amount of capital loss.
+    B.I am willing to accept moderate capital loss.
+    C.I am willing to accept high capital loss. 
+
+
+( A - C )$ C
+
+
+
+
+== Risk Survey #4 =========================================
+
+ 4.On the whole, which of the following best describes your
+  investment objective?
+
+    A.Capital Preservation
+    B.A Regular Steam Of Stable Income
+    C.A Combination Of Income And Capital Growth
+    D.Achieve Substantial Long Term Capital Growth
+    E.High Capital Appreciation
+
+
+( A - E )$ E
+
+
+
+
+== Risk Survey #5 =========================================
+
+ 5.Which of the following portfolio is most attractive to
+  you?
+
+    A.Portfolio (a) - I am willing to accept a potential 
+     loss of 3% in exchange for 9% potential upside.
+    B.Portfolio (b) - I am willing to accept a potential 
+     loss of 10% in exchange for 18% potential upside.
+    C.Portfolio (c) - I am willing to accept a potential
+     loss of 15% in exchange for 25% potential upside.
+    D.Portfolio (d) - I am willing to accept a potential
+     loss of 20% in exchange for 31% potential upside.
+    E.Portfolio (e) - I am willing to accept a potential
+     loss of 27% in exchange for 40% potential upside.
+
+
+( A - E )$ E
+
+
+
+
+== Risk Survey #6 =========================================
+
+ 6.Compared to others, how do you rate your willingness to 
+  take financial risks?
+
+    A. Extremely low risk taker.
+    B. Low risk taker.
+    C. Average risk taker.
+    D. High risk taker.
+    E. Extremely high risk taker.
+
+
+( A - E )$ E
+
+
+
+
+
+== Market Capitalization Preference =======================
+
+ Generally, stocks with high market capitalization have low
+  liquidity risk and low potential return, and vice versa.
+  In order to achieve your investment objectives, which of 
+  the following statement best describes your style?
+
+    A.I prefer high potential return and high liquidity
+     risks. 
+    B.I prefer low liquidity risk and low potential return. 
+    C.I don't have preference on stock's market cap.
+
+( A - C )$ A
+
+
+
+
+== Risk Survey Result =====================================
+
+       YYY   YYY   OOOOOOO   UUU   UUU  RRRRRRR    
+        YYY YYY   OOO   OOO  UUU   UUU  RRR   RRR
+         YYYYY    OOO   OOO  UUU   UUU  RRR   RRR
+          YYY     OOO   OOO  UUU   UUU  RRRRRRRR
+          YYY     OOO   OOO  UUU   UUU  RRR   RRR
+          YYY      OOOOOOO    UUUUUUU   RRR    RRR
+
+RRRRRR    EEEEEEEEE   SSSSSS    UUU   UUU  LLL    TTTTTTTTT
+RR    RR  EEE        SS    SSS  UUU   UUU  LLL       TTT
+RR    RR  EEEEEEEEE   SSSS      UUU   UUU  LLL       TTT
+RRRRRRR   EEE            SSSS   UUU   UUU  LLL       TTT
+RR    RR  EEE        SSS    SS  UUU   UUU  LLL       TTT
+RR     RR EEEEEEEEE    SSSSSS    UUUUUUU   LLLLLLLLL TTT
+
+Your risk tolerance rating is:6.7
+
+
+Press any key to continue...
+
+
+
+
+    Select Your Favorite Sector
+
+    Number                 SectorName                  StockCount
+    ______    _____________________________________    __________
+     1        'Alternative Energy'                      2        
+     2        'Automobiles & Parts'                     8        
+     3        'Beverages'                               4        
+     4        'Chemicals'                              11        
+     5        'Construction & Materials'               27        
+     6        'Electricity'                             1        
+     7        'Electronic & Electrical Equipment'      35        
+     8        'Equity Investment Instruments'           5        
+     9        'Financial Services'                     34        
+    10        'Fixed Line Telecommunications'           2        
+    11        'Food & Drug Retailers'                   4        
+    12        'Food Producers'                         15        
+    13        'Forestry & Paper'                        7        
+    14        'General Industrials'                    11        
+    15        'General Retailers'                      19        
+    16        'Health Care Equipment & Services'        5        
+    17        'Household Goods & Home Construction'    25        
+    18        'Industrial Engineering'                 15        
+    19        'Industrial Metals & Mining'             14        
+    20        'Industrial Transportation'               9        
+    21        'Leisure Goods'                          18        
+    22        'Media'                                  25        
+    23        'Mining'                                 10        
+    24        'Mobile Telecommunications'               5        
+    25        'Nonequity Investment Instruments'       89        
+    26        'Oil & Gas Producers'                     4        
+    27        'Personal Goods'                         67        
+    28        'Pharmaceuticals & Biotechnology'        11        
+    29        'Real Estate Investment & Services'      22        
+    30        'Software & Computer Services'           34        
+    31        'Support Services'                       19        
+    32        'Technology Hardware & Equipment'        31        
+    33        'Travel & Leisure'                       27        
+SelectedSectorNumber =
+     14    15
+Enter the number(1,2,etc...) before the sector name to select
+Press ENTER if finished. > 
+
+
+
+
+
+Downloading data from Yahoo!...
+
+
+  >>>>>>>>>>>>>>>>>>>>>>--------------------------------------
+
+
+
+
+== Result =================================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ - Portfolio with Maximum Sharpe Ratio
+
+               Name                      Weight 
+    0252.HK    'SOUTHEAST ASIA P'         68.426
+    0065.HK    'DETEAM COMPANY L'        0.59006
+    1106.HK    'SINO HAIJING HOL'         5.4577
+    1626.HK    'JIA YAO HOLDINGS'        0.33489
+    1182.HK    'C Y FOUNDATION G'        0.81606
+    0403.HK    'STARLITE HLDGS'            0.128
+    1161.HK    'WATER OASIS'              2.9587
+    0919.HK    'MODERN BEAUTY'           0.34879
+    0789.HK    'ARTINI CHINA'              6.229
+    1360.HK    'MEGA EXPO HOLDIN'         1.5485
+    1082.HK    'HK EDU INTL'             0.14224
+    0459.HK    'MIDLAND IC&I'             2.5746
+    0647.HK    'JOYCE BOUTIQUE'            3.295
+    2288.HK    'RYKADAN CAPITAL'          7.1502
+
+ - With Annualized Expected
+
+    Return		132.50%
+    Risk(Std Dev)	86.52%
+
+
+Press enter to view the detail
+
+
+
+
+== Thank You ==============================================
+
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA          AA         AAAA        AA         AA    AAAA 
+ AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA 
+ AA     AA   AA           AA        AA         AA      AA 
+ AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA
+
+* P o r t f o l i o   A d v i s o r *
+
+ + Thanks for Using KLT Bull Portfolio Advisor
+
+   
+    Hope to See You Again~
+
+
+
+
+
+
+
+Press any key to exit...
+
+
+
+
+
+
