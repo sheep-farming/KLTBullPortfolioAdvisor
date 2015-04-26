@@ -128,7 +128,7 @@ clc;
   
 % Market Cap Preference
 
-     MCP=input('== Market Capitalization Preference =======================\n\n Generally, stocks with high market capitalization have low\n  liquidity risk and low potential return, and vice versa.\n  In order to achieve your investment objectives, which of \n  the following statement best describes your style?\n\n    A.I prefer high potential return and high liquidity\n     risks. \n    B.I prefer low liquidity risk and low potential return. \n    C.I don''t have preference on stock''s market cap.\n\n( A - C )$ \n','s');
+     MCP=input('== Market Capitalization Preference =======================\n\n Generally, stocks with high market capitalization have low\n  liquidity risk and low potential return, and vice versa.\n  In order to achieve your investment objectives, which of \n  the following statement best describes your style?\n\n    A.I prefer high potential return and high liquidity\n     risks. \n    B.I prefer low liquidity risk and low potential return. \n    C.I don''t have preference on stock''s market cap.\n\n( A - C )$ ','s');
   
 
   switch MCP

@@ -37,7 +37,5 @@ DrawFrontierFigure;
 hold off
 DrawPieChart
 % optimization([Stock.MeanReturns], [Covariance], RiskAversion,RiskFreeRate )
-hold off
 DrawTrendLine(1200*sret,1200*srsk);
-hold off
 thankYou;
