@@ -14,7 +14,7 @@ RiskFreeRate = .014;
 
 %Survey
 clc;
-[riskRate highCapPreference] =survey();
+[riskRate,highCapPreference] =survey();
 RiskAversion=2.0+riskRate/5.0;
     
     % The equation used to represent risk aversion in Financial Toolbox? software is

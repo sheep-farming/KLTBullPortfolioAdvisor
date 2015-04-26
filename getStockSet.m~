@@ -83,10 +83,10 @@ SelectedSectorNumber=[];clc
 
 % Select Sector Number
 while (fin==0)
-fprintf('    <strong>Select Your Favorite Sector</strong>\n\n');
+f
 disp(sector);
 display(SelectedSectorNumber);
-i=input('Enter the number(1,2,etc...) before the sector name to select\nPress <strong>ENTER</strong> if finished. > ','s')
+i=input('Enter the sector number(1,2,etc...) to select it, or press enter if finished. > ','s')
 clc;
 if(str2double(i)>=0)
     if(str2double(i)<=41)

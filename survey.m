@@ -133,9 +133,9 @@ clc;
 
   switch MCP
       case {'a','A'}
-          highCapPreference=1;
-      case {'b','B'}
           highCapPreference=-1;
+      case {'b','B'}
+          highCapPreference=1;
       case {'c','C'}
           highCapPreference=0;
       otherwise

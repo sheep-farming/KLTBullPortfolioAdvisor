@@ -1,4 +1,4 @@
-function [Ticker,Name,Sector] = ImportTickerFromCSV(filename, startRow, endRow)
+function [Ticker,Name,Sector,Cap] = ImportTickerFromCSV(filename, startRow, endRow)
 %IMPORTFILE Import numeric data from a text file as column vectors.
 %   [TICKER,NAME,SECTOR] = IMPORTFILE(FILENAME) Reads data from text file
 %   FILENAME for the default selection.
@@ -83,7 +83,7 @@ end
 
 
 %% Split data into numeric and cell columns.
-rawNumericColumns = raw(:, 1);
+rawNumericColumns = raw(:, [1,4]);
 rawCellColumns = raw(:, [2,3]);
 
 
@@ -91,5 +91,7 @@ rawCellColumns = raw(:, [2,3]);
 Ticker = cell2mat(rawNumericColumns(:, 1));
 Name = rawCellColumns(:, 1);
 Sector = rawCellColumns(:, 2);
+Cap = cell2mat(rawNumericColumns(:, 2));
+
 
 
