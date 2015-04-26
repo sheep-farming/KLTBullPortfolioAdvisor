@@ -31,10 +31,11 @@ FetchDataFromYahoo;
 
 Optimization;
 
-DrawFigure;
-
 DisplayResult;
 
+DrawFrontierFigure;
+
+DrawPieChart
 % optimization([Stock.MeanReturns], [Covariance], RiskAversion,RiskFreeRate )
 
 

@@ -41,12 +41,12 @@ screenedTicker=[];
 for(i=1:stockAmount)
     switch highCapPreference
         case -1
-            if(ticker(i).cap>=1E9)
+            if(ticker(i).cap<1E9)
                screenedTicker=[screenedTicker; ticker(i)];
                 
             end
         case 1
-            if(ticker(i).cap<1E9)
+            if(ticker(i).cap>=1E9)
                screenedTicker=[screenedTicker; ticker(i)];
             end
         otherwise

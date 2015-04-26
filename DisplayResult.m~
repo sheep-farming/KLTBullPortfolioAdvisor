@@ -10,3 +10,6 @@ fprintf('\n    Risk(Std Dev)\t%.2f%%\n\n',srsk*1200);
 fprintf('\nPress enter to view the detail');
 pause;
 
+
+name={AssetList(swgt > 0)};
+combinedstrings = strcat(name,percentValues);

@@ -5,7 +5,7 @@ tickinperiod=0;
 SamplePeriod='d';% y m w d
 DateLength=30;
 
-[ticker tickername]=getStockSet();
+[ticker tickername]=getStockSet(highCapPreference);
 % Fetch ticker data from Yahoo
 for(i=1:length(ticker))
     data=fetch(yahoo,ticker(i),'Adj Close',now-DateLength,now,SamplePeriod);
