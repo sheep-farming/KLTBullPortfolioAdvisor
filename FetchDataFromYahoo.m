@@ -9,10 +9,12 @@ DateLength=30;
 % Fetch ticker data from Yahoo
 for(i=1:length(ticker))
     try
-    data=fetch(yahoo,ticker(i),'Adj Close',now-DateLength,now,SamplePeriod);
+    %data=fetch(yahoo,ticker(i),'Adj Close',now-DateLength,now,SamplePeriod);
+    data=get_yahoo_stockdata2(ticker{i},now-DateLength,now,SamplePeriod,1);
+    data=[datenum(data.Date) data.AdjClose];
     Stock(i).name=ticker(i);
     Stock(i).number=(ticker(i));
-    Stock(i).price=flipud(data);%Now->Old => Old to Now.
+    Stock(i).price=data;%Now->Old => Old to Now.
     Stock(i).returns=price2ret(Stock(i).price(:,2),Stock(i).price(:,1))*30.25; %Daily Return Rate. convert to annual ~ returns*365
             %Progress Bar
             fetchProgress=(60*i/(1.0*length(ticker)));
@@ -59,4 +61,4 @@ for(i=1:length(ticker))
 end
     Covariance=cov([Stock.returns]);
     Correlation=corrcoef([Stock.returns]);
-
+clc;

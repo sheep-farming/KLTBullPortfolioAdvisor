@@ -10,3 +10,4 @@ labels = tName;
 legend(labels,'Location','eastoutside','Orientation','vertical')
 
 pause;
+close

@@ -15,12 +15,11 @@ NumPorts = 20;
 [PortRisk, PortReturn, PortWts] = portopt(ExpReturn,... 
 ExpCovariance, NumPorts);
 
-RisklessRate  =  0.01;
 BorrowRate    =  0.08;
 
 %portalloc (PortRisk, PortReturn, PortWts, RisklessRate, BorrowRate, RiskAversion);
 
-[RiskyRisk, RiskyReturn, RiskyWts, RiskyFraction, OverallRisk, OverallReturn] = portalloc (PortRisk, PortReturn, PortWts,RisklessRate, BorrowRate, RiskAversion);
+[RiskyRisk, RiskyReturn, RiskyWts, RiskyFraction, OverallRisk, OverallReturn] = portalloc (PortRisk, PortReturn, PortWts,RiskFreeRate, BorrowRate, RiskAversion);
 
 srsk=RiskyRisk;
 sret=RiskyReturn;

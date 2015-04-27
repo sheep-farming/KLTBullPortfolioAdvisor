@@ -4,6 +4,7 @@ plot([crsk,srsk,Ersk]*1200,[cret,sret,Eret]*1200,'g',prsk*1200,pret*1200,'b',srs
 xlabel('% Standard Deviation of Returns (Annualized)');
 ylabel('% Mean of Returns (Annualized)');
 grid on
-print -dtiff CapitalAllocation
+print -dpng CapitalAllocation
 
 pause
+close

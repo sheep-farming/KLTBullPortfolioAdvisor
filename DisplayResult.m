@@ -9,4 +9,3 @@ fprintf('\n    Return\t\t%.2f%%',sret*1200);
 fprintf('\n    Risk(Std Dev)\t%.2f%%\n\n',srsk*1200);
 fprintf('\nPress enter to view the detail');
 pause;
-

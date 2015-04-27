@@ -16,6 +16,7 @@ title('Possibility Distribution');
 labels = {'84.1% Possible Lower','Expected Return','84.1% Possible Higher'};
 legend(labels,'Location','north','Orientation','vertical','FontSize',12);
 ylabel('% Expected Annualized Rate');
-
+pause
+close
 end
 
