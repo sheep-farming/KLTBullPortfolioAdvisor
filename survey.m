@@ -5,7 +5,7 @@ function [ rate, highCapPreference ] = survey()
 %   rate: 1 to 10
 %   
 %Survey Intro
-  fprintf('== Risk Survey ============================================\n\n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA          AA         AAAA        AA         AA    AAAA \n AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA     AA   AA           AA        AA         AA      AA \n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA\n\n* P o r t f o l i o   A d v i s o r *\n\n Please take few minutes to answer the follow questions to \nhelp us optimize your portfolio.\n\n\nPress any key to continue...');
+  fprintf('== Risk Survey ============================================\n\n 88   88  88   88888888    8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88888    88      88       8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88   88  88      88       88    88 88    88 88     88      \n 88    88 8888888 88       88888888  888888  888888 888888\n\n* P o r t f o l i o   A d v i s o r *\n\n Please take few minutes to answer the follow questions to \nhelp us optimize your portfolio.\n\n\nPress any key to continue...');
   pause;
   clc;
 
