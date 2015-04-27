@@ -1,6 +1,6 @@
-tNumber=AssetList(swgt > 0)';
-tName=tickername(swgt > 0)';
-weights=100*swgt(swgt > 0);
+tNumber=AssetList(RiskyWts > 0)';
+tName=tickername(RiskyWts > 0)';
+weights=100*RiskyWts(RiskyWts > 0);
 
 
 x=[weights];
