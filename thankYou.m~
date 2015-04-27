@@ -1,4 +1,0 @@
-clc
-fprintf('== Thank You ==============================================\n\n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA          AA         AAAA        AA         AA    AAAA \n AA   AAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA \n AA     AA   AA           AA        AA         AA      AA \n AAAAAAAAA   AAAAAAAA     AA    AAAAAA     AAAAAA      AA\n\n* P o r t f o l i o   A d v i s o r *\n\n + Thanks for your trust with KLT Bull Portfolio Advisor!\n\n   \n    Best luck with your investments!\n\n\n\n\n\n\n\n\nPress any key to exit...\n');
-pause
-%clear
