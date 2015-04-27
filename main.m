@@ -8,14 +8,25 @@ RiskFreeRate = .014;
 
 %Introduction
     intro();
+    
+age=0;
+gender=0;
 
 %Personal Info
-    [age,gender]=personal();
+    [age,gender,genderName,name]=personal();
 
 %Survey
 clc;
-[riskRate,highCapPreference] =survey();
-RiskAversion=2.0+riskRate/5.0;
+[ riskRate, highCapPreference ] = survey();
+RiskAversion = 2.0 + riskRate / 5.0;
+
+%Adjust gender difference
+if(gender~=1)
+    RiskAversion = 2+sqrt((RiskAversion-2)*2);
+end
+
+%Adjust age difference
+RiskAversion = RiskAversion - 0.01 * age;
     
     % The equation used to represent risk aversion in Financial Toolbox? software is
     % U = E(r) - 0.005*A*sig^2

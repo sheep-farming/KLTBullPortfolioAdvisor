@@ -10,12 +10,14 @@ RiskFreeRate = .014;
     intro();
 
 %Personal Info
-    [age,gender]=personal();
+    [age,gender,genderName,name]=personal();
 
 %Survey
 clc;
-[riskRate,highCapPreference] =survey();
-RiskAversion=2.0+riskRate/5.0;
+[ riskRate, highCapPreference ] = survey();
+RiskAversion = 2.0 + riskRate / 5.0;
+
+if()RiskAversion = 2+sqrt((RiskAversion-2)*2)
     
     % The equation used to represent risk aversion in Financial Toolbox? software is
     % U = E(r) - 0.005*A*sig^2
@@ -34,7 +36,6 @@ OptimizationUtility;
 DisplayResult;
 
 DrawFrontierFigure;
-hold off
 DrawPieChart;
 % optimization([Stock.MeanReturns], [Covariance], RiskAversion,RiskFreeRate )
 DrawTrendLine(1200*sret,1200*srsk);

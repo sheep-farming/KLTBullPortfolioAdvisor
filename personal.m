@@ -1,4 +1,4 @@
-function [age, genderCode]=personal()
+function [age, genderCode,genderName,name]=personal()
 %PERSONAL Summary of this function goes here
 %   Detailed explanation goes here
 %Age

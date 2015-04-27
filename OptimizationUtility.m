@@ -10,7 +10,7 @@ ExpReturn = [Stock.MeanReturns];
 
 ExpCovariance  = [Covariance];
                
-NumPorts = 20;
+NumPorts = 80;
 
 [PortRisk, PortReturn, PortWts] = portopt(ExpReturn,... 
 ExpCovariance, NumPorts);
@@ -27,4 +27,3 @@ prsk=PortRisk;
 pret=PortReturn;
 Ersk=OverallRisk;
 Eret=OverallReturn;
-
