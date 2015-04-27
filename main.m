@@ -18,7 +18,7 @@ gender=8;
 %Survey
 clc;
 [ riskRate, highCapPreference ] = survey();
-RiskAversion = 2.0 + riskRate / 5.0;
+RiskAversion = 4.0 - riskRate / 5.0;
 
 %Adjust gender difference
 if(gender~=1)
@@ -26,7 +26,7 @@ if(gender~=1)
 end
 
 %Adjust age difference
-RiskAversion = RiskAversion - 0.01 * age;
+RiskAversion = RiskAversion + 0.01 * age;
     
     % The equation used to represent risk aversion in Financial Toolbox? software is
     % U = E(r) - 0.005*A*sig^2
