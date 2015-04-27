@@ -6,14 +6,14 @@ try
 fprintf('Dear %s,\n\n',strcat(genderName,name));
 catch
 end
-fprintf(' Given your selected industry, we have designed a Portfolio\n  with Maximum Utility for you\n\n');
-fprintf(' <strong>%d%%</strong> of your cash should be in the stock market:\n\n', round(RiskyFraction*100));
+fprintf(' Given your selected industries, Kowloon Tong Bull has designed\n a Portfolio with Maximum Utility for you:\n\n');
+fprintf(' We suggest that <strong>%d%%</strong> of your wealth should be invested in the\n Hong Kong stock market:\n\n', round(RiskyFraction*100));
 disp(Blotter);
-fprintf('\n <strong>%d%%</strong> of your cash should be kept in bank\n\n', 100-round(RiskyFraction*100));
-fprintf('\n - With Overall Annualized Expected\n');
-fprintf('\n    Return\t\t%.2f%%',Eret*1200);
-fprintf('\n    Risk(Std Dev)\t%.2f\n\n',Ersk*12);
-fprintf('\nPress enter to view the detail');
+fprintf('\n while <strong>%d%%</strong> should be kept in the risk-less investments\n(bank deposits or government bonds).\n\n', 100-round(RiskyFraction*100));
+fprintf('\n Under our suggestion, the performance of your OVERALL\n is as followed:(in annualized term)\n');
+fprintf('\n    RETURN\t\t%.2f%%',Eret*1200);
+fprintf('\n    RISK(Std Dev)\t%.2f\n\n',Ersk*12);
+fprintf('\nPress enter to view detailed portfolio analysis');
 pause;
 
 
