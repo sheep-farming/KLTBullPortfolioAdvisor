@@ -10,7 +10,7 @@ RiskFreeRate = .014;
     intro();
     
 age=0;
-gender=0;
+gender=8;
 
 %Personal Info
     [age,gender,genderName,name]=personal();

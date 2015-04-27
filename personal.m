@@ -13,7 +13,7 @@ function [age, genderCode,genderName,name]=personal()
   if genderCode<5 
     gender='1';
     else
-    gender='0';
+    gender='8';
    end
    if genderCode==1
     genderName='Mr.';

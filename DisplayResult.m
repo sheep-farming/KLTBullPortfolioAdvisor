@@ -6,7 +6,7 @@ try
 fprintf('Dear %s,\n\n',strcat(genderName,name));
 catch
 end
-fprintf('Given your selected industry, we have designed a Portfolio\n with Maximum Utility for you\n\n');
+fprintf(' Given your selected industry, we have designed a Portfolio\n  with Maximum Utility for you\n\n');
 disp(Blotter);
 fprintf('\n - With Annualized Expected\n');
 fprintf('\n    Return\t\t%.2f%%',sret*1200);
