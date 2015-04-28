@@ -47,7 +47,7 @@ DisplayResult;
 DrawFrontierFigure;
 DrawPieChart;
 % optimization([Stock.MeanReturns], [Covariance], RiskAversion,RiskFreeRate )
-DrawTrendLine(1200*sret,1200*srsk);
+DrawTrendLine(1200*Eret,1200*Ersk);
 thankYou;
 clc;
 clear;
