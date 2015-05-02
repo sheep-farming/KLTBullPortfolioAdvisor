@@ -1,4 +1,4 @@
-function [Ticker,Name,Sector,Cap] = importfile(filename, startRow, endRow)
+function [Ticker,Name,Sector,Cap] = importCSV(filename, startRow, endRow)
 %IMPORTFILE Import numeric data from a text file as column vectors.
 %   [VARNAME1,CALC,AEROSPACEDEFENSE,VARNAME4,VARNAME5] =
 %   IMPORTFILE(FILENAME) Reads data from text file FILENAME for the default

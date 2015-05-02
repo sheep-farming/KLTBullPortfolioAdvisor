@@ -1,4 +1,4 @@
-function [ rate, highCapPreference ] = survey()
+function [ RiskAversion, highCapPreference ] = survey(gender, age)
 %SURVEY: Risk Aversion and Market Preference Survey
 %   This function outputs user's risk rating and whether the user have
 %   preference on asset liquidity.
@@ -157,5 +157,15 @@ clc;
   pause;
   clc;
 
+RiskAversion = 4.0 - rate / 5.0;
+
+%Adjust gender difference
+if(gender~=1)
+    RiskAversion = 2+sqrt((RiskAversion-2)*2);
+end
+
+%Adjust age difference
+RiskAversion = RiskAversion + 0.01 * age;
+  
 end
 

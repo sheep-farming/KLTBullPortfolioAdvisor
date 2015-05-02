@@ -1,0 +1,76 @@
+** Program Structure
+
+* Procedures
+Here are the basic procedures to solve the problem.
+- Personal Information Survey
+- Risk Aversion Evaluation
+- Screen Stocks by Liquidity
+- Select Stocks by User's Preference
+- Fetch Real-Time Stock Data
+- Portfolio Optimization
+- Report Generation
+- Visualization (Plot Figures for Better Understanding)
+
+* Functions
+
++ Functions and Scripts
+Main Script
+main.m - main()
+The entry of the program. 
+	The script controls the sequence flow of its functions.
+
++ Introduction
+intro.m - intro()
+Display the introduction and the about page.
+	We have constructed an innovative and user friendly command line interface framework by elaborately designing this function.
+
++ Personal Information Survey
+getPersonalInformation.m - getPersonalInformation()
+Get personal information from the 
+	Get personal information such as name, age and gender from user inputs, to make the program more friendly and personalized. The result also will be used later to determine user's risk aversion.
+
+survey.m - survey(gender, age)
+Conduct survey and evaluate user's risk and liquidity preferences.
+	To have a better understanding on user's investment preference, we formulated 6 multiple choice questions in accordance with financial industry practice to evaluate user's risk aversion degree and liquidity preference. Then the user's risk aversion index is adjusted by user's age and gender.
+
++ Screen Stocks by Liquidity
+importCSV.m - importCSV(filename, startRow, endRow)
+Import metadata of stocks from csv file.
+	We used Bloomberg Terminal and outputed a list stocks that are being traded actively in Hong Kong Stock Exchange, and saved the list into Comma-Separated Values(CSV) format. The function imports the stocks' ticker number, short name, sector name and market capitalization from the CSV file.
+
++ Select Stocks by User's Preference
+getStockSet.m - getStockSet(highCapPreference)
+Output the set of stock's ticker numbers and names that meet user's preference.
+	Call function importCSV(...) to import stocks metadata as struct. Then screen the stocks by user's liquidity preference, and generate a list of sectors and let user select their intended sectors.
+
++ Fetch Real-Time Stock Data
+FetchDataFromYahoo.m - FetchDataFromYahoo()
+Fetch real-time stock data from Yahoo! Finance.
+	Fetch real time stock data from Yahoo! Finance to ensure accuracy and timeliness of our results. 
+
++ dataPreprocessing.m - dataPreprocessing()
+Do basic calculations
+	Calculate some basic indicator of the stocks performance such as mean return, covariance, correlation, variance, and standard deviation.
+
++ Portfolio Optimization
+OptimizationUtility.m - OptimizationUtility()
+Determine the optimal portfolio and asset allocation
+	Make mean-variance analysis to determine the efficient frontier, calculate the sharpe ratio, and find the point of contact which indicates the optimized portfolio allocation. Also, allocate the weights between cash in bank and in stock market based on user's risk aversion coefficient to achieve the risk level that meet their preference.
+
++ Report Generation
+DisplayResult.m - DisplayResult()
+Generate an understandable report of results in nature language.
+	Display the tailor-made final result with dedicated-designed and intelligible texts.
+
++ Visualization Plot Figures for Better Understanding
+DrawFrontierFigure.m - DrawFrontierFigure()
+Visualize the efficient frontier, sharpe ratio and optimal asset allocation.
+	Simplify those complicated financial concepts by curves and points.
+
++ DrawPieChart - DrawPieChart()
+Visualize the different weights in the portfolio.
+	Give user a concise understanding on the structure of their tailor-made portfolo.
+
++ DrawTrendLine - DrawPieChart()
+Visualize the expected return and its possibility distribution of the portfolio
+	Help user understand the expected return and its possible return.
