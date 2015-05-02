@@ -10,7 +10,7 @@ DateLength=90;
 for(i=1:length(ticker))
     try
         try
-            data=fetch(yahoos,ticker(i),'Adj Close',now-DateLength,now,SamplePeriod);
+            data=fetch(yahoo,ticker(i),'Adj Close',now-DateLength,now,SamplePeriod);
             Stock(i).name=ticker(i);
             Stock(i).number=(ticker(i));
             Stock(i).price=flipud(data);%Now->Old => Old to Now.
