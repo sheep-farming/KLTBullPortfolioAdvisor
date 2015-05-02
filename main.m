@@ -1,6 +1,6 @@
 %%initialize
-clear;
-clc;
+	clear;
+	clc;
 
 %Variables - Risk Free Rate = 1.4%, as of Mar 31, 2015
 
@@ -8,27 +8,32 @@ clc;
 
 %Introduction
     intro();
-    
 
-
-%Personal Info
+% Personal Info
     [age,gender,genderName,name]=getPersonalInformation();
+    clc;
 
-%Survey
-clc;
-[ RiskAversion, highCapPreference ] = survey(gender,age);
+% Survey
+	[ RiskAversion, highCapPreference ] = survey(gender,age);
 
 % Fetch ticker data from Yahoo!    
-FetchDataFromYahoo;
-dataPreprocessing;
-OptimizationUtility;
+	FetchDataFromYahoo;
 
-DisplayResult;
+% Data Pre-Process
+	dataPreprocessing;
 
-DrawFrontierFigure;
-DrawPieChart;
-% optimization([Stock.MeanReturns], [Covariance], RiskAversion,RiskFreeRate )
-DrawTrendLine(1200*Eret,1200*Ersk);
-thankYou;
-clc;
-clear;
+% Optimization
+	OptimizationUtility;
+
+% Display Results
+	DisplayResult;
+
+% Visualization
+	DrawFrontierFigure;
+	DrawPieChart;
+	DrawTrendLine(1200*Eret,1200*Ersk);
+
+% Final Stage
+	thankYou;
+	clc;
+	clear;
