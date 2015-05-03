@@ -1,4 +1,30 @@
 clc
-fprintf('== Thank You ==============================================\n\n 88   88  88   88888888    8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88888    88      88       8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88   88  88      88       88    88 88    88 88     88      \n 88    88 8888888 88       88888888  888888  888888 888888\n\n* P o r t f o l i o   A d v i s o r *\n\n + Thanks for your trust with KLT Bull Portfolio Advisor!\n\n   \n    We sincerely wish you best of the luck with your\n     investments!\n\n\n\n\n\n\n\n\nPress any key to exit...\n');
+  fprintf('== Thank You ============================================== \n');
+  fprintf('                                                            \n');
+  fprintf(' 88   88  88   88888888    8888888  88    88 88     88      \n');
+  fprintf(' 88  88   88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88888    88      88       8888888  88    88 88     88      \n');
+  fprintf(' 88  88   88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88   88  88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88    88 8888888 88       88888888  888888  888888 888888  \n');
+  fprintf('                                                            \n');
+  fprintf('* P o r t f o l i o   A d v i s o r *                       \n');
+  fprintf('                                                            \n');
+  fprintf(' + Thanks for your trust with KLT Bull Portfolio Advisor!   \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('    We sincerely wish you best of the luck with your        \n');
+  fprintf('     investments!                                           \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('                                                            \n');
+  fprintf('Press any key to exit...                                    \n');
+  fprintf('                                                            \n');
 pause
 %clear
+ 

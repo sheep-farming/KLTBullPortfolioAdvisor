@@ -5,13 +5,39 @@ function [ RiskAversion, highCapPreference ] = survey(gender, age)
 %   rate: 1 to 10
 %   
 %Survey Intro
-  fprintf('== Risk Survey ============================================\n\n 88   88  88   88888888    8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88888    88      88       8888888  88    88 88     88      \n 88  88   88      88       88    88 88    88 88     88      \n 88   88  88      88       88    88 88    88 88     88      \n 88    88 8888888 88       88888888  888888  888888 888888\n\n* P o r t f o l i o   A d v i s o r *\n\n Please take few minutes to answer the follow questions to \nhelp us optimize your portfolio.\n\n\nPress any key to continue...');
+  fprintf('== Risk Survey ============================================\n');
+  fprintf('\n');
+  fprintf(' 88   88  88   88888888    8888888  88    88 88     88      \n');
+  fprintf(' 88  88   88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88888    88      88       8888888  88    88 88     88      \n');
+  fprintf(' 88  88   88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88   88  88      88       88    88 88    88 88     88      \n');
+  fprintf(' 88    88 8888888 88       88888888  888888  888888 888888\n');
+  fprintf('\n');
+  fprintf('* P o r t f o l i o   A d v i s o r *\n');
+  fprintf('\n');
+  fprintf(' Please take few minutes to answer the follow questions to \n');
+  fprintf('help us optimize your portfolio.\n');
+  fprintf('\n');
+  fprintf('\n');
+  fprintf('Press any key to continue...');
   pause;
   clc;
 
 
 %Survey Q1
-  Q1=input('== Risk Survey #1 =========================================\n\n 1.How many years of experience do you have in investment?\n\n    A. No Experience\n    B. < 3 years\n    C. 3 - 6 years\n    D. 7 - 10 years\n    E. >10 years\n\n\n( A - E )$ ','s');
+  fprintf('== Risk Survey #1 =========================================\n');
+  fprintf('\n');
+  fprintf(' 1.How many years of experience do you have in investment?\n');
+  fprintf('\n');
+  fprintf('    A. No Experience\n');
+  fprintf('    B. < 3 years\n');
+  fprintf('    C. 3 - 6 years\n');
+  fprintf('    D. 7 - 10 years\n');
+  fprintf('    E. >10 years\n');
+  fprintf('\n');
+  fprintf('\n');
+  Q1=input('( A - E )$ ','s');
   clc;
   switch Q1
       case {'a','A'}
@@ -29,7 +55,24 @@ function [ RiskAversion, highCapPreference ] = survey(gender, age)
   end
 clc;
 %Survey Q2
-  Q2=input('== Risk Survey #2 =========================================\n\n 2.How many types of investment products below are you \n holding currently?\n\n    - Cash, deposits, certificate of deposits, capital \n     protected products\n    - Bonds, bond funds\n    - Foreign currencies, non capital protected currency \n     linked structured products\n    - Stocks, open­end funds excluding bond funds & money \n     market funds, non capital protected equity linked \n     structured products, investment­linked insurance plan,\n     commodities\n    - Options, futures, warrants\n\n\n( 1 - 5 )# ','s');
+  fprintf('== Risk Survey #2 =========================================\n');
+  fprintf('\n');
+  fprintf(' 2.How many types of investment products below are you \n');
+  fprintf(' holding currently?\n');
+  fprintf('\n');
+  fprintf('    - Cash, deposits, certificate of deposits, capital \n');
+  fprintf('     protected products\n');
+  fprintf('    - Bonds, bond funds\n');
+  fprintf('    - Foreign currencies, non capital protected currency \n');
+  fprintf('     linked structured products\n');
+  fprintf('    - Stocks, open­end funds excluding bond funds & money \n');
+  fprintf('     market funds, non capital protected equity linked \n');
+  fprintf('     structured products, investment­linked insurance plan,\n');
+  fprintf('     commodities\n');
+  fprintf('    - Options, futures, warrants\n');
+  fprintf('\n');
+  fprintf('\n');
+  Q2=input('( 1 - 5 )# ','s');
   clc;
   switch Q2
       case {'0'}
@@ -49,7 +92,18 @@ clc;
   end
 clc;
 %Survey Q3
-  Q3=input('== Risk Survey #3 =========================================\n\n 3.In order to achieve your expected returns, which state- \n  ment best describes the degree of losses you are willing \n  to take?\n\n    A.I am willing to accept minimal amount of capital loss.\n    B.I am willing to accept moderate capital loss.\n    C.I am willing to accept high capital loss. \n\n\n( A - C )$ ','s');
+  fprintf('== Risk Survey #3 =========================================\n');
+  fprintf('\n');
+  fprintf(' 3.In order to achieve your expected returns, which state- \n');
+  fprintf('  ment best describes the degree of losses you are willing \n');
+  fprintf('  to take?\n');
+  fprintf('\n');
+  fprintf('    A.I am willing to accept minimal amount of capital loss.\n');
+  fprintf('    B.I am willing to accept moderate capital loss.\n');
+  fprintf('    C.I am willing to accept high capital loss. \n');
+  fprintf('\n');
+  fprintf('\n');
+  Q3=input('( A - C )$ ','s');
   clc;
 
   switch Q3
@@ -64,7 +118,19 @@ clc;
   end
   clc;
 %Survey Q4
-  Q4=input('== Risk Survey #4 =========================================\n\n 4.On the whole, which of the following best describes your\n  investment objective?\n\n    A.Capital Preservation\n    B.A Regular Steam Of Stable Income\n    C.A Combination Of Income And Capital Growth\n    D.Achieve Substantial Long Term Capital Growth\n    E.High Capital Appreciation\n\n\n( A - E )$ ','s');
+  fprintf('== Risk Survey #4 =========================================\n');
+  fprintf('\n');
+  fprintf(' 4.On the whole, which of the following best describes your\n');
+  fprintf('  investment objective?\n');
+  fprintf('\n');
+  fprintf('    A.Capital Preservation\n');
+  fprintf('    B.A Regular Steam Of Stable Income\n');
+  fprintf('    C.A Combination Of Income And Capital Growth\n');
+  fprintf('    D.Achieve Substantial Long Term Capital Growth\n');
+  fprintf('    E.High Capital Appreciation\n');
+  fprintf('\n');
+  fprintf('\n');
+  Q4=input('( A - E )$ ','s');
   clc;
 
   switch Q4
@@ -84,7 +150,24 @@ clc;
   clc;
   
 %Survey Q5
-  Q5=input('== Risk Survey #5 =========================================\n\n 5.Which of the following portfolio is most attractive to\n  you?\n\n    A.Portfolio (a) - I am willing to accept a potential \n     loss of 3% in exchange for 9% potential upside.\n    B.Portfolio (b) - I am willing to accept a potential \n     loss of 10% in exchange for 18% potential upside.\n    C.Portfolio (c) - I am willing to accept a potential\n     loss of 15% in exchange for 25% potential upside.\n    D.Portfolio (d) - I am willing to accept a potential\n     loss of 20% in exchange for 31% potential upside.\n    E.Portfolio (e) - I am willing to accept a potential\n     loss of 27% in exchange for 40% potential upside.\n\n\n( A - E )$ ','s');
+  fprintf('== Risk Survey #5 =========================================\n');
+  fprintf('\n');
+  fprintf(' 5.Which of the following portfolio is most attractive to\n');
+  fprintf('  you?\n');
+  fprintf('\n');
+  fprintf('    A.Portfolio (a) - I am willing to accept a potential \n');
+  fprintf('     loss of 3%% in exchange for 9%% potential upside.\n');
+  fprintf('    B.Portfolio (b) - I am willing to accept a potential \n');
+  fprintf('     loss of 10%% in exchange for 18%% potential upside.\n');
+  fprintf('    C.Portfolio (c) - I am willing to accept a potential\n');
+  fprintf('     loss of 15%% in exchange for 25%% potential upside.\n');
+  fprintf('    D.Portfolio (d) - I am willing to accept a potential\n');
+  fprintf('     loss of 20%% in exchange for 31%% potential upside.\n');
+  fprintf('    E.Portfolio (e) - I am willing to accept a potential\n');
+  fprintf('     loss of 27%% in exchange for 40%% potential upside.\n');
+  fprintf('\n');
+  fprintf('\n');
+  Q5=input('( A - E )$ ','s');
   
 
   switch Q5
@@ -104,7 +187,19 @@ clc;
   
   clc;
 %Survey Q6
-  Q6=input('== Risk Survey #6 =========================================\n\n 6.Compared to others, how do you rate your willingness to \n  take financial risks?\n\n    A. Extremely low risk taker.\n    B. Low risk taker.\n    C. Average risk taker.\n    D. High risk taker.\n    E. Extremely high risk taker.\n\n\n( A - E )$ ','s');
+  fprintf('== Risk Survey #6 =========================================\n');
+  fprintf('\n');
+  fprintf(' 6.Compared to others, how do you rate your willingness to \n');
+  fprintf('  take financial risks?\n');
+  fprintf('\n');
+  fprintf('    A. Extremely low risk taker.\n');
+  fprintf('    B. Low risk taker.\n');
+  fprintf('    C. Average risk taker.\n');
+  fprintf('    D. High risk taker.\n');
+  fprintf('    E. Extremely high risk taker.\n');
+  fprintf('\n');
+  fprintf('\n');
+  Q6=input('( A - E )$ ','s');
   
   switch Q6
       case {'a','A'}
@@ -132,7 +227,19 @@ clc;
   
 % Market Cap Preference
 
-     MCP=input('== Liquidity Preference ===================================\n\n Generally, stocks with high market capitalization have low\n  liquidity risk and low potential return, and vice versa.\n  In order to achieve your investment objectives, which of \n  the following statement best describes your style?\n\n    A.I prefer high potential return and high liquidity\n     risks. \n    B.I prefer low liquidity risk and low potential return. \n    C.I don''t have preference on stock''s market cap.\n\n( A - C )$ ','s');
+  fprintf('== Liquidity Preference ===================================\n');
+  fprintf('\n');
+  fprintf(' Generally, stocks with high market capitalization have low\n');
+  fprintf('  liquidity risk and low potential return, and vice versa.\n');
+  fprintf('  In order to achieve your investment objectives, which of \n');
+  fprintf('  the following statement best describes your style?\n');
+  fprintf('\n');
+  fprintf('    A.I prefer high potential return and high liquidity\n');
+  fprintf('     risks. \n');
+  fprintf('    B.I prefer low liquidity risk and low potential return. \n');
+  fprintf('    C.I don''t have preference on stock''s market cap.\n');
+  fprintf('\n');
+  MCP=input('( A - C )$ ','s');
   
 
   switch MCP
@@ -153,7 +260,26 @@ clc;
   
   
 %Survey Result
-  fprintf('== Risk Survey Result =====================================\n\n       YYY   YYY   OOOOOOO   UUU   UUU  RRRRRRR    \n        YYY YYY   OOO   OOO  UUU   UUU  RRR   RRR\n         YYYYY    OOO   OOO  UUU   UUU  RRR   RRR\n          YYY     OOO   OOO  UUU   UUU  RRRRRRRR\n          YYY     OOO   OOO  UUU   UUU  RRR   RRR\n          YYY      OOOOOOO    UUUUUUU   RRR    RRR\n\nRRRRRR    EEEEEEEEE   SSSSSS    UUU   UUU  LLL    TTTTTTTTT\nRR    RR  EEE        SS    SSS  UUU   UUU  LLL       TTT\nRR    RR  EEEEEEEEE   SSSS      UUU   UUU  LLL       TTT\nRRRRRRR   EEE            SSSS   UUU   UUU  LLL       TTT\nRR    RR  EEE        SSS    SS  UUU   UUU  LLL       TTT\nRR     RR EEEEEEEEE    SSSSSS    UUUUUUU   LLLLLLLLL TTT\n\nYour risk tolerance rating is:%.1f\n\n\nPress any key to continue...',rate);
+  fprintf('== Risk Survey Result =====================================\n');
+  fprintf('\n');
+  fprintf('       YYY   YYY   OOOOOOO   UUU   UUU  RRRRRRR    \n');
+  fprintf('        YYY YYY   OOO   OOO  UUU   UUU  RRR   RRR\n');
+  fprintf('         YYYYY    OOO   OOO  UUU   UUU  RRR   RRR\n');
+  fprintf('          YYY     OOO   OOO  UUU   UUU  RRRRRRRR\n');
+  fprintf('          YYY     OOO   OOO  UUU   UUU  RRR   RRR\n');
+  fprintf('          YYY      OOOOOOO    UUUUUUU   RRR    RRR\n');
+  fprintf('\n');
+  fprintf('RRRRRR    EEEEEEEEE   SSSSSS    UUU   UUU  LLL    TTTTTTTTT\n');
+  fprintf('RR    RR  EEE        SS    SSS  UUU   UUU  LLL       TTT\n');
+  fprintf('RR    RR  EEEEEEEEE   SSSS      UUU   UUU  LLL       TTT\n');
+  fprintf('RRRRRRR   EEE            SSSS   UUU   UUU  LLL       TTT\n');
+  fprintf('RR    RR  EEE        SSS    SS  UUU   UUU  LLL       TTT\n');
+  fprintf('RR     RR EEEEEEEEE    SSSSSS    UUUUUUU   LLLLLLLLL TTT\n');
+  fprintf('\n');
+  fprintf('Your risk tolerance rating is:%.1f\n',rate);
+  fprintf('\n');
+  fprintf('\n');
+  fprintf('Press any key to continue...');
   pause;
   clc;
 

@@ -7,11 +7,30 @@ age=0;
 gender=8;
 
 %Age
-  age=input('== Age ====================================================\n\n* P o r t f o l i o   A d v i s o r *\n\n - Would you mind telling me your age?\n\n# ');
+  fprintf('== Age ====================================================\n');
+  fprintf('\n');
+  fprintf('* P o r t f o l i o   A d v i s o r *\n');
+  fprintf('\n');
+  fprintf(' - Would you mind telling me your age?\n');
+  fprintf('\n');
+  age=input('# ');
   clc;
 
 %Gender
-  genderCode=input('== Gender =================================================\n\n* P o r t f o l i o   A d v i s o r *\n\n - How can I call you?\n\n    1. Mr.\n    8. Ms.\n    9. Miss.\n    0. Mrs.\n\nKindly enter 1, 8, 9 or 0.\n\n# ');
+  fprintf('== Gender =================================================\n');
+  fprintf('\n');
+  fprintf('* P o r t f o l i o   A d v i s o r *\n');
+  fprintf('\n');
+  fprintf(' - How can I call you?\n');
+  fprintf('\n');
+  fprintf('    1. Mr.\n');
+  fprintf('    8. Ms.\n');
+  fprintf('    9. Miss.\n');
+  fprintf('    0. Mrs.\n');
+  fprintf('\n');
+  fprintf('Kindly enter 1, 8, 9 or 0.\n');
+  fprintf('\n');
+  genderCode=input('# ');
   gender='1';
       genderName='Mr.';
 
@@ -35,7 +54,12 @@ gender=8;
   clc;
 
 %Name
-  fprintf('== Gender =================================================\n\n* P o r t f o l i o   A d v i s o r *\n\n - How can I call you?\n    ');
+  fprintf('== Gender =================================================\n');
+  fprintf('\n');
+  fprintf('* P o r t f o l i o   A d v i s o r *\n');
+  fprintf('\n');
+  fprintf(' - How can I call you?\n');
+  fprintf('    ');
   name=input(strcat(genderName,' '),'s');
   clc;
 

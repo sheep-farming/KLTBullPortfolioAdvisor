@@ -1,30 +1,3 @@
-%                            _ooOoo_
-%                           o8888888o
-%                           88" . "88
-%                           (| -_- |)
-%                            O\ = /O
-%                        ____/`---'\____
-%                      .   ' \\| |// `.
-%                       / \\||| : |||// \
-%                     / _||||| -:- |||||- \
-%                       | | \\\ - / | |
-%                     | \_| ''\---/'' | |
-%                      \ .-\__ `-` ___/-. /
-%                   ___`. .' /--.--\ `. . __
-%                ."" '< `.___\_<|>_/___.' >'"".
-%               | | : `- \`.;`\ _ /`;.`/ - ` : | |
-%                 \ \ `-. \_ __\ /__ _/ .-` / /
-%         ======`-.____`-.___\_____/___.-`____.-'======
-%                            `=---='
-%
-%         .............................................
-%              Mr. Buddha blesses    I have no bug
-%
-%
-%  Created by Du Pupu on 12/4/15.
-%  Copyright (c) 2015 Zou Luoyi. All rights reserved.
-%
-
 function [result,tickername]=getStockSet(highCapPreference)
 
 ticker=struct('number',0,'name','','sector','');
@@ -83,7 +56,7 @@ SelectedSectorNumber=[];clc
 
 % Select Sector Number
 while (fin==0)
-fprintf('    <strong>Select Your Favorite Sector</strong>\n\n');
+fprintf('    <strong>Select Your Favorite Sector</strong>\n\n\n');
 disp(sector);
 display(SelectedSectorNumber);
 i=input('Enter the number(1,2,etc...) before the sector name to select\nPress <strong>ENTER</strong> if finished. > ','s')
